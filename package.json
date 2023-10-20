@@ -1,0 +1,20 @@
+{
+  "name": "brainlybypass",
+  "version": "1.0.0",
+  "description": "It's just a bypass for Brinly.pl",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "launch": "webpack-dev-server"
+  },
+  "author": "Jason.json",
+  "license": "ISC",
+  "dependencies": {
+    "ts-loader": "^9.5.0",
+    "typescript": "^5.2.2",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
