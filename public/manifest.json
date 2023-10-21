@@ -1,3 +1,12 @@
 {
-    
+    "manifest_version":2,
+    "name": "Brainly ByPass",
+    "version": "1.0.0",
+    "description": "An extension made for Brainly.pl to get unlimited answers for free.",
+    "content_scripts": [
+        {
+            "matches":["https://brainly.pl/*"],
+            "js": ["index.js"]
+        }
+    ]
 }
